@@ -56,4 +56,6 @@ An example of such an object is:
     }
   }
 ```
+The `aumid` stands for **AppUserModelID**.
+
 The `streamable` section within `launch` is intended for use with Steam In-Home Streaming.
