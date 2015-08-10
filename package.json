@@ -1,0 +1,17 @@
+{
+  "name": "get-metro-apps",
+  "version": "1.0.0",
+  "description": "Get promise of details for all installed Metro apps",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "lodash": "^3.10.1",
+    "winreg": "0.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tommy Irish",
+  "license": "MIT"
+}
