@@ -8,10 +8,24 @@
     "lodash": "^3.10.1",
     "winreg": "0.0.12"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "metro",
+    "appusermodelid",
+    "aumid",
+    "windows",
+    "windows 8",
+    "windows 8.1",
+    "windows 10"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tirish/get-metro-apps.git"
   },
+  "author": "Tommy Irish <tirish.dev@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tirish/get-metro-apps/issues"
+  },
+  "homepage": "https://github.com/tirish/get-metro-apps",
   "author": "Tommy Irish",
   "license": "MIT"
 }
