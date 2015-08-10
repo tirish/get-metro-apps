@@ -21,5 +21,39 @@ The promise returns an array of objects with details about the installed metro a
 
 An example of such an object is:
 ```javascript
-
+ {
+    "name": {
+      "value": "Fresh Paint",
+      "type": "String"
+    },
+    "company": {
+      "value": "Microsoft Corporation",
+      "type": "String"
+    },
+    "icon": {
+      "value": "@{Microsoft.FreshPaint_3.0.15204.0_x86__8wekyb3d8bbwe?ms-resource://Microsoft.FreshPaint/Files/Assets/square44x44logo.png}",
+      "location": "C:/Programs Files/WindowsApps/Microsoft.FreshPaint_3.0.15204.0_x86__8wekyb3d8bbwe",
+      "uri": "ms-resource://Microsoft.FreshPaint/Files/Assets/square44x44logo.png",
+      "type": "resource"
+    },
+    "description": {
+      "value": "Fresh Paint",
+      "type": "String"
+    },
+    "aumid": {
+      "value": "Microsoft.FreshPaint_8wekyb3d8bbwe!Microsoft.FreshPaint",
+      "type": "String"
+    },
+    "launch": {
+      "normal": {
+        "cmd": "\"C:\\Windows\\explorer.exe\" shell:AppsFolder\\Microsoft.FreshPaint_8wekyb3d8bbwe!Microsoft.FreshPaint",
+        "startDir": "\"C:\\Windows\\\""
+      },
+      "streamable": {
+        "cmd": "\"C:\\Windows\\System32\\cmd.exe\" /K explorer.exe shell:AppsFolder\\Microsoft.FreshPaint_8wekyb3d8bbwe!Microsoft.FreshPaint & echo \"Close Me to Exit: Type 'exit' and press enter\"",
+        "startDir": "\"C:\\Windows\\System32\\\""
+      }
+    }
+  }
 ```
+The `streamable` section within `launch` is intended for use with Steam In-Home Streaming.
